@@ -16,7 +16,7 @@ int main()
 
   //generates a pseudorandom number for 9 possible cases
   srand (time(NULL));
-  int num = rand() % 9;;
+  int num = rand() % 9;
 
   //gets the users question
   std::cout << "Enter your quetsion down below and the Magic8Ball will answer: \n";
